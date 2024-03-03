@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    background: white;
+    transition: all 0.5s;
+    position: fixed;
+}
+.navigation .logo {
+    color: green;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.logo span {
+    color: black;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.navigation ul li a {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.navigation ul li a:hover {
+    color: green;
+}
+
+.navigation i {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.menu .bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: black;
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.home-menu h1 {
+    font-size: 50px;
+    color: green;
+}
+
+.home-menu .menu-text{
+    height: 30vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.about-page .about-text{
+    height: 30vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.about-page h1 {
+    font-size: 50px;
+    color: green;
+}
+
+.home-menu .menu-img {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: small;
+    align-items: baseline;
+    cursor: pointer;
+    margin-bottom: 20vh;
+}
+
+.home-menu .menu-img-2 {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: small;
+    align-items: baseline;
+    cursor: pointer;
+    margin-bottom: 20vh;
+    
+}
+
+.menu-img p {
+    text-align: center; 
+}
+
+.menu-img {
+    margin-bottom: 50vh;
+}
+
+.menu-img-2 p {
+    text-align: center; 
+}
+
+.menu-img-2 {
+    margin-bottom: 50vh;
+}
+
+.home-text {
+    max-width: 37rem;
+}
+
+.home-text .text-h4 {
+    font-size: 1.5rem;
+    color: green;
+    margin-bottom: 1rem;
+}
+
+.home-text .text-h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+
+.home .menu-text {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-text p {
+    margin-bottom: 4rem;
+}
+
+.home-btn {
+    padding: 15px 45px;
+    background: green;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.home-btn:hover {
+    background: rgb(7, 231, 7);
+}
+
+.home-img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    background: rgb(155, 231, 155);
+  }
+
+.footer-links {
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: left;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-text {
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 10px;
+}
+
+footer a,p {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+footer a {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.footer-text p {
+    font-size: 12px;
+}
+
+.img-about,
+.texto {
+    display: block; 
+    text-align: center; 
+    margin-bottom: 10vh;
+    margin-top: 5vh; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
